@@ -14,9 +14,10 @@ itsdangerous==0.24
 Jinja2==2.8
 Markdown==2.6.2
 netaddr==0.7.17
-netifaces==0.10.4
+netifaces==0.10.0
 pathtools==0.1.2
 pkginfo==1.2.1
+psutil==3.2.1
 pyasn1==0.1.8
 pylru==1.0.9
 pyserial==2.7

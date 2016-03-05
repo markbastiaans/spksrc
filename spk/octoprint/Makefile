@@ -8,7 +8,7 @@ BETA = 1
 
 WHEELS         = src/requirements.txt
 BUILD_DEPENDS  = cross/python cross/setuptools cross/pip cross/wheel
-BUILD_DEPENDS += cross/netifaces cross/regex cross/tornado-4.0.1
+BUILD_DEPENDS += cross/netifaces-0.10.0 cross/psutil-3.2.1 cross/regex cross/tornado-4.0.1
 SPK_DEPENDS    = "python>=2.7.11-15"
 DEPENDS        = cross/$(SPK_NAME)
 
